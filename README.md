@@ -29,7 +29,6 @@ pip install dist/justcleanme-0.1.0.tar.gz
 - Spelling Correction
 - HTML Entity Cleaning
 - TF-IDF Vectorization
-- (Optional) Sentence Embeddings (via SentenceTransformer)
 
 ---
 
@@ -89,29 +88,11 @@ Expected Output:
 ```
 Name: justcleanme
 Version: 0.1.0
-Summary: NLP text preprocessing made easy.
 Author: Rituraj Pandey
-Author-email: riturajpandey739@gmail.com
 ...
 ```
 
 ---
-
-## 🧠 Optional: Sentence Embeddings
-
-Uncomment lines in your code and install the dependency:
-
-```bash
-pip install sentence-transformers
-```
-
-Then in your script:
-
-```python
-# self.embed_model = SentenceTransformer('all-MiniLM-L6-v2')
-# def get_embeddings(self, texts: list) -> any:
-#     return self.embed_model.encode(texts)
-```
 
 ---
 
