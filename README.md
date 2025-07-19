@@ -15,7 +15,7 @@ pip install justcleanme
 Or if you're installing from a local build:
 
 ```bash
-pip install dist/justcleanme-<version>.tar.gz
+pip install dist/justcleanme-0.1.0.tar.gz
 ```
 
 ---
